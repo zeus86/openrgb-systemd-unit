@@ -1,0 +1,11 @@
+[Unit]
+Description=OpenRGB control
+
+[Service]
+Type=simple
+ExecStart=%h/bin/OpenRGB/OpenRGB -c 00FFFF -m Static
+ExecStop=%h/bin/OpenRGB/OpenRGB -c 000000 -m Static
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target
