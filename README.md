@@ -14,7 +14,7 @@ This Systemd-User-Unit sets a given Color to your OpenRGB-Controlled RGBs, and t
  systemctl --user daemon-reload
  systemctl --user enable openrgb.service
  ```
- This assumes, that your OpenRGB-Executable is available under `~/bin/OpenRGB/OpenRGB`, as it would be, if you checked the OpenRGB-Repo out in your `~/bin`. 
+ This assumes, that your OpenRGB-Executable is available under `~/bin/OpenRGB/OpenRGB`, as it would be, if you checked out the OpenRGB-Repo out in your `~/bin`. 
  
  ## Known Problems
  * If you plan to use Profiles, test them first. I Encountered many combinations, where I end up with broken Profiles, which did not work, even if the User-Unit does. From my understanding the profiles should be world-readable also. 
