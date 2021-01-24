@@ -1,6 +1,6 @@
 # openrgb-systemd-unit
 User-Systemd-Unit for OpenRGB
-
+archived, migrated to https://git.kostianix.de/zeus/openrgb-systemd-unit.git
 ---
 
 For use with https://gitlab.com/j-be/OpenRGB on Linux.
